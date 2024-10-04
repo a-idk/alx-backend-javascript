@@ -14,6 +14,5 @@ export default function handleProfileSignup(firstName, lastName, fName) {
     ));
 
     return res;
-
   });
 }
