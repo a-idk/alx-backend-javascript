@@ -11,7 +11,7 @@ export default class Airport {
 
   // setting method for the name
   set name(value) {
-    this._name = value;  // storing in an underscore attribute version
+    this._name = value; // storing in an underscore attribute version
   }
 
   // getting method for the code
@@ -21,10 +21,10 @@ export default class Airport {
 
   // setting method for the code
   set code(value) {
-    this._code = value;  // storing in an underscore attribute version
+    this._code = value; // storing in an underscore attribute version
   }
 
-  // 
+  // default string description
   get [Symbol.toStringTag]() {
     return this._code;
   }
