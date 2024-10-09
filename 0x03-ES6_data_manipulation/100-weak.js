@@ -2,7 +2,7 @@ export const weakMap = new WeakMap();
 
 export function queryAPI(endpoint) {
   // if endpoint is already in the weakMap
-  let c = weakMap.get(endpoint) || 0;
+  const c = weakMap.get(endpoint) || 0;
 
   // c = c + 1;
 
